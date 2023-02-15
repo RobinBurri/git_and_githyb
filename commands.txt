@@ -7,3 +7,6 @@ git switch -c <branch name> => git checkout -b <branch name>
 
 git restore .				=> undo unstage change all files
 git restore <file name>		=> undo unstage change for <file name>
+
+git clean -dn (-delete, -n = list all files deleted)				=> will delete all unstage files
+
