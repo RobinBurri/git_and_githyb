@@ -18,9 +18,9 @@ git reset --hard HEAD~1		=> delete last 1 commit (hard => change will totaly era
 
 git stash                           => to stash some changes | not on stage area and not commited
 git stash list                      => to list all saved stash
-git apply <number from the list>    =>  then you can ga and gc
+git apply <number from the list>    => then you can ga and gc
 
-
+git merge --squash <branch name>    => merge branch name with only the last commit of branch name
 
 /*
 ** GITHUB from local to empty remote repo
