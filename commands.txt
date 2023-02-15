@@ -1,3 +1,5 @@
+git --version		version
+
 git branch
 -a 					ls all branches
 -r      			ls remote branches
@@ -14,3 +16,10 @@ git clean -dn (-delete, -n = list all files deleted)				=> will delete all unsta
 git reset --soft HEAD~1		=> delete last 1 commit (soft => change will be in staged area)
 git reset --hard HEAD~1		=> delete last 1 commit (hard => change will totaly erased)
 
+
+
+/*
+** GITHUB from local to empty remote repo
+*/
+
+git remote add origin URL
