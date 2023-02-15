@@ -1,6 +1,7 @@
 git branch
--a 			ls all branches
--r      ls remote branches
+-a 					ls all branches
+-r      			ls remote branches
+-D <branch name>	force delete name branch			
 
 git switch <branch name>    => git checkout <branch name>
 git switch -c <branch name> => git checkout -b <branch name>
