@@ -1,0 +1,6 @@
+git branch
+-a 			ls all branches
+-r      ls remote branches
+
+git switch <branch name>    => git checkout <branch name>
+git switch -c <branch name> => git checkout -b <branch name>
