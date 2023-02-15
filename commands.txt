@@ -16,6 +16,10 @@ git clean -dn (-delete, -n = list all files deleted)				=> will delete all unsta
 git reset --soft HEAD~1		=> delete last 1 commit (soft => change will be in staged area)
 git reset --hard HEAD~1		=> delete last 1 commit (hard => change will totaly erased)
 
+git stash                           => to stash some changes | not on stage area and not commited
+git stash list                      => to list all saved stash
+git apply <number from the list>    =>  then you can ga and gc
+
 
 
 /*
