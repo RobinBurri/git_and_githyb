@@ -3,7 +3,8 @@ git --version		version
 git branch
 -a 					ls all branches
 -r      			ls remote branches
--D <branch name>	force delete name branch			
+-D <branch name>	force delete name branch
+git push origin -d <branch>     => delete <branch> in origin		
 
 git switch <branch name>    => git checkout <branch name>
 git switch -c <branch name> => git checkout -b <branch name>
@@ -21,6 +22,9 @@ git stash list                      => to list all saved stash
 git apply <number from the list>    => then you can ga and gc
 
 git merge --squash <branch name>    => merge branch name with only the last commit of branch name
+
+
+
 
 /*
 ** GITHUB from local to empty remote repo
