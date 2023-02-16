@@ -23,6 +23,7 @@ git apply <number from the list>    => then you can ga and gc
 
 git merge --squash <branch name>    => merge branch name with only the last commit of branch name
 
+git merge --abort       => to abort a merge with too many conflicts
 
 
 
