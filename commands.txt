@@ -25,7 +25,7 @@ git merge --squash <branch name>    => merge branch name with only the last comm
 
 git merge --abort       => to abort a merge with too many conflicts
 
-
+git rebase
 
 /*
 ** GITHUB from local to empty remote repo
